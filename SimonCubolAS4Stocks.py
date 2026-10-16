@@ -21,8 +21,7 @@ def get_market_status(change):
 
 
 # Display function
-def display_summary(stock_name, open_price, close_price,
-                    change, percent_change, status):
+def display_summary(stock_name, open_price, close_price, change, percent_change, status):
     print()
     print("DAILY STOCK SUMMARY")
     print("Stock:", stock_name)
